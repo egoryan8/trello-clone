@@ -101,6 +101,7 @@
   flex-shrink: 0;
 }
 .app .boards__item .add__btn {
+  cursor: pointer;
   height: 30px;
   background: rgba(155, 155, 155, 0.3);
   border-radius: 3px;
