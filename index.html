@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Trello Clone</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="boards">
+        <div class="boards__item">
+          <span class="title" contenteditable="true"></span>
+          <div class="list">
+            <div class="list__item" draggable="true">Стартовая карточка</div>
+          </div>
+          <form class="form">
+            <textarea
+              class="textarea"
+              placeholder="Введите название для этой карточки"
+            ></textarea>
+
+            <div class="buttons">
+              <button class="add__item-btn">Добавить карточку</button>
+              <button class="cancel__item-btn">Отмена</button>
+            </div>
+          </form>
+          <div class="add__btn"><span> + </span>Добавить карточку</div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
