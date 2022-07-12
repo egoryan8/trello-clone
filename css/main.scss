@@ -133,4 +133,15 @@
     border-radius: 3px;
     font-size: 14px;
   }
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
 }

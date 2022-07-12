@@ -1,5 +1,6 @@
 const lists = document.querySelectorAll('.list');
 const button = document.querySelector('.button');
+const boards = document.querySelectorAll('.boards__item');
 
 function addTask() {
   const btn = document.querySelector('.add__btn');
@@ -61,7 +62,7 @@ function addBoard() {
     <div class="list"></div>`;
 
   boards.append(board);
-
+  deleteBoard(board);
   changeTitle();
   dragNdrop();
 }
@@ -126,3 +127,7 @@ function dragNdrop() {
 }
 
 dragNdrop();
+
+function deleteBoard(board) {
+  board.addEventListener('dblclick', () => board.remove());
+}
