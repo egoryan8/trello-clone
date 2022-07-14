@@ -1,6 +1,6 @@
 # Trello Clone
 Drag&amp;Drop приложение, клон Trello. 
-# Стек
+## Стек
 - VanilaJs
 - SCSS
 
